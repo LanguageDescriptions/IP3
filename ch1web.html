@@ -1,10 +1,10 @@
-<html><head><meta name="viewport" content="width=device-width, initial-scale=1.0" charset="utf-8"/><title>FN</title><script>function playAudio(audio_element) {var x = document.getElementById(audio_element); x.play();}</script>
+<html><head><meta name="viewport" content="width=device-width, initial-scale=1.0" charset="utf-8"/><title>Introducing Phonology chapter 1</title><script>function playAudio(audio_element) {var x = document.getElementById(audio_element); x.play();}</script>
 <style>
 h1 {text-align: center;}
 table {
   border: none;
   border-collapse: collapse;
-  width: 50%;
+  width: 75%;
 }
 td {
   border: none;
@@ -19,10 +19,22 @@ td {
 <body>
 <p>The current draft of chapter 1 is available <a href="IP3Ch1.pdf">here</a>.</p>
 <h1>Chapter 1</h1>
+<p>&nbsp;</p>
+<h2>Coarticulation between [s] and [ɹʷ]</h2>
+<p>
 <br>
-On this page, we look at recordings of two words of Logoori (a Bantu language of Kenya), which translate to English ‘dog’ and ‘new’. The goal is to say exactly how these words are similar, and how they are different, which then tells us something about this language. We will work through a few ways of analyzing and representing the physical properties of these words, uncovering advantages and disadvantages of these methods. 
+<table><tbody>
+<tr><td style="width:20%"><img src="ch1_schemespec.jpg" style="width:300px;height:200px;"></td><td style="width:10%">&nbsp;</td><td style="width:20%"><img src="ch1_screamspec.jpg" style="width:300px;height:200px;"></td></tr>
+<tr><td><audio id="ch1scheme.wav" preload = "none" src="ch1scheme.wav"></audio><button onclick="playAudio('ch1scheme.wav')" type="button">play</button> ‘I scheme’</td><td></td><td><audio id="ch1scream.wav" preload = "none" src="ch1scream.wav"></audio><button onclick="playAudio('ch1scream.wav')" type="button">play</button> ‘I scream’ </td></tr>
+<tr><td><audio id="s_scheme.wav" preload = "none" src="s_scheme.wav"></audio><button onclick="playAudio('s_scheme.wav')" type="button">play</button> [s] in ‘I scheme’</td><td></td><td><audio id="s_scream.wav" preload = "none" src="s_scream.wav"></audio><button onclick="playAudio('s_scream.wav')" type="button">play</button> [s] in ‘I scream’</td></tr>
+</tbody></table>
+</p>
+<p>&nbsp;</p>
+<h2>Representing two words</h2>
+<p>
+On this page, we look at recordings of two words of Logoori (a Bantu language of Kenya), which translate to English ‘dog’ and ‘new’. The goal is to say exactly how these words are similar, and how they are different, which then tells us something about this language. We will work through a few ways of analyzing and representing the physical properties of these words, uncovering advantages and disadvantages of these methods.</p> 
 
-<h2>Sound Recording</h2>
+<h3>Sound Recording</h3>
 <br>
 Any sound can be recorded on a computer and saved as a file of numbers, which can then be played back. Here we have an example of two words of Logoori. On all of these pages, you can press ‘play’ to hear the word. I recommend that you do not listen to these recordings right now, try to figure out the words based just on the numbers and pictures, then come back here to listen to see if you were right.
 <p>
@@ -45,7 +57,7 @@ Any sound can be recorded on a computer and saved as a file of numbers, which ca
 An expert phonetician could tell you a very little bit about these words from these pictures.
 <br>
 <p>
-<h2>Spectrograms</h2>
+<h3>Spectrograms</h3>
 <br>
 A spectrogram analyzes these numbers and creates another bunch of numbers, in this case a 116 × 204 matrix of (floating-point) numbers (23,664 numbers).
 
@@ -60,7 +72,7 @@ Spectrogram of ‘new’
 
 <br>
 
-<h2>Reduction of sound to formant measurements</h2>
+<h3>Reduction of sound to formant measurements</h3>
 
 Next, we reduce the sound recordings to a mere 228 numbers each (listed below), so we can compare “F1 at 0.02 seconds in ‘dog’, versus F1 at 0.02 seconds in ‘new’.” The two words differ in F1 at that point in time by 32 Hz. An expert phonetician may eventually tell you something about the words from these numbers, but it requires a lot more specialized analysis of these 228 numbers: at this point, we just have a smaller wall of numbers. 
 
@@ -152,7 +164,7 @@ Time in seconds, Formants 1-3 in Hz
 <tr><td>1.5</td><td>702</td><td>1530</td><td>2991</td><td></td><td>666</td><td>1437</td><td>2246</td></tr>
 <tr><td>1.52</td><td>636</td><td>1598</td><td>3025</td><td></td><td>688</td><td>1429</td><td>2274</td></tr>
 </tbody></table>
-<h2 id="Wetware">Solution</h2> 
+<h3 id="Wetware">Solution</h3> 
 The problem was that we were trying to do completely different things with a single instrument. There are many numeric tools that can be used to discover the physical properties of sound (any sound at all), and there is a different set of tools that we use to understand linguistic sounds, which are symbolic representations of physical sound as they are used as cognitive building blocks of language. We simply reduce these two recordings to a tiny set of technically-defined symbols specialially developed for representing language sound – [ɪ́mbwá] ‘dog’ and [ɪ́mbjá] ‘new’. How we do that is the topic of Chapter 2.
 
 
