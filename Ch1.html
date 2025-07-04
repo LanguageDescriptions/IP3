@@ -17,7 +17,6 @@ td {
 </style>
 </head>
 <body>
-<p>The current draft of chapter 1 is available <a href="IP3Ch1.pdf">here</a>.</p>
 <h1>Chapter 1</h1>
 <p>&nbsp;</p>
 <h2>Coarticulation between [s] and [ɹʷ]</h2>
@@ -36,7 +35,7 @@ On this page, we look at recordings of two words of Logoori (a Bantu language of
 
 <h3>Sound Recording</h3>
 <br>
-Any sound can be recorded on a computer and saved as a file of numbers, which can then be played back. Here we have an example of two words of Logoori. On all of these pages, you can press ‘play’ to hear the word. I recommend that you do not listen to these recordings right now, try to figure out the words based just on the numbers and pictures, then come back here to listen to see if you were right.
+Any sound can be recorded on a computer and saved as a file of numbers, which can then be played back. Here we have an example of two words of Logoori. On all of these pages, you can press ‘play’ to hear the word. I recommend that you <b>do not</b> listen to these recordings right now, try valiantly to figure out the words based just on the numbers and pictures, then come back here to listen to see if you were right, after you try to interpret the spectrograms.
 <p>
 
 <audio id="ch1dog.wav" preload = "none" src="ch1dog.wav"></audio><button onclick="playAudio('ch1dog.wav')" type="button">play</button> ‘dog’: this file contains 9,183 numbers (you can see the numbers <a href="ch1dog.txt">here</a>).
@@ -67,7 +66,7 @@ Spectrogram of ‘dog’
 
 Spectrogram of ‘new’
 <img src="ch1newspec.jpg" style="width:300px;height:200px;">
-<p>An expert phonetician could tell you a more bit about these words from these pictures. But how do we talk about the differences systematically, not using vague descriptions like “a bit darker”, “a bit further up the picture” or “a bit further to the right”?
+<p>An expert phonetician could tell you a more bit about these words from these pictures. But how do we talk about the differences systematically, not using vague descriptions like “a bit darker”, “a bit further up the picture” or “a bit further to the right”? It would be appropriate now to go up there and listen to the recordings, to see if your guess was close.
 
 
 <br>
@@ -77,15 +76,15 @@ Spectrogram of ‘new’
 Next, we reduce the sound recordings to a mere 228 numbers each (listed below), so we can compare “F1 at 0.02 seconds in ‘dog’, versus F1 at 0.02 seconds in ‘new’.” The two words differ in F1 at that point in time by 32 Hz. An expert phonetician may eventually tell you something about the words from these numbers, but it requires a lot more specialized analysis of these 228 numbers: at this point, we just have a smaller wall of numbers. 
 
 <p>
-How well does this massively stripped-down representation preserve the original sound of the ‘dog’ and ‘new’ recordings? These numbers can be converted back to sound, and as you can hear: <audio id="ch1dogres.wav" preload = "none" src="ch1dogres.wav"></audio><button onclick="playAudio('ch1dogres.wav')" type="button">play</button> ‘dog’, <audio id="ch1newres.wav" preload = "none" src="ch1newres.wav"></audio><button onclick="playAudio('ch1newres.wav')" type="button">play</button> ‘new’, there has been a serious loss in sound quality. Go ahead and glance at the table of numbers. <a href="#Wetware">Click here</a> to move towards the ultimate solution<p>
+How well does this massively stripped-down representation preserve the original sound of the ‘dog’ and ‘new’ recordings? These numbers can be converted back to sound, and as you can hear: <audio id="ch1dogres.wav" preload = "none" src="ch1dogres.wav"></audio><button onclick="playAudio('ch1dogres.wav')" type="button">play</button> ‘dog’, <audio id="ch1newres.wav" preload = "none" src="ch1newres.wav"></audio><button onclick="playAudio('ch1newres.wav')" type="button">play</button> ‘new’, there has been a serious loss in sound quality. Go ahead and glance at the table of numbers. <a href="#Wetware">Click here</a> to move towards the ultimate solution.<p>
 
 
 
-Time in seconds, Formants 1-3 in Hz
+(Time in seconds, Formants 1-3 in Hz)
 <p>
 
 <table><tbody>
-<tr><td></td><td></td><td></td><td>‘dog’</td><td></td><td></td><td>‘new’</td></tr>
+<tr><td></td><td></td><td>‘dog’</td><td></td><td></td><td></td><td>‘new’</td></tr>
 <tr><td><span style="font-style:italic;font-size:10px">Time&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</td><td><span style="font-style:italic;font-size:10px">F1</span></td><td><span style="font-style:italic;font-size:10px">F2</span></td><td><span style="font-style:italic;font-size:10px">F3</span></td><td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</td><td><span style="font-style:italic;font-size:10px">F1</span></td><td><span style="font-style:italic;font-size:10px">F2</span></td><td><span style="font-style:italic;font-size:10px">F3</span></td></tr>
 <tr><td>0.02</td><td>459</td><td>2198</td><td>2863</td><td></td><td>491</td><td>2151</td><td>2849</td></tr>
 <tr><td>0.04</td><td>451</td><td>2174</td><td>2885</td><td></td><td>475</td><td>2155</td><td>2851</td></tr>
@@ -165,7 +164,7 @@ Time in seconds, Formants 1-3 in Hz
 <tr><td>1.52</td><td>636</td><td>1598</td><td>3025</td><td></td><td>688</td><td>1429</td><td>2274</td></tr>
 </tbody></table>
 <h3 id="Wetware">Solution</h3> 
-The problem was that we were trying to do completely different things with a single instrument. There are many numeric tools that can be used to discover the physical properties of sound (any sound at all), and there is a different set of tools that we use to understand linguistic sounds, which are symbolic representations of physical sound as they are used as cognitive building blocks of language. We simply reduce these two recordings to a tiny set of technically-defined symbols specialially developed for representing language sound – [ɪ́mbwá] ‘dog’ and [ɪ́mbjá] ‘new’. How we do that is the topic of Chapter 2.
+The problem was that we were trying to do completely different things with a single instrument. Many numeric tools can be used to discover the physical properties of sound (any sound at all), but we need a different set of tools to understand sounds linguistically: symbolic representations as they are used as discrete cognitive building blocks of language. We  reduce these two recordings to a tiny set of technically-defined symbols specifically developed for representing language sound – these words are [ɪ́mbwá] ‘dog’ and [ɪ́mbjá] ‘new’. How we do that is the topic of Chapter 2.
 
 
 </tbody></table> </body></html>
