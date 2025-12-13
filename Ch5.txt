@@ -1,0 +1,67 @@
+</table>
+<html><head><meta name="viewport" content="width=device-width, initial-scale=1.0" charset="utf-8"/><title>Chapter 5 problem set</title><script>function playAudio(audio_element) {var x = document.getElementById(audio_element); x.play();}</script>
+<style>
+h1 {text-align: center;}
+table {
+  border: none;
+  border-collapse: collapse;
+  width: 95%;
+}
+td {
+  border: none;
+  border-collapse: collapse;
+  padding-bottom: 2px;
+  padding-left: 2px;
+  spacing: 2px;
+
+}
+</style>
+</head>
+<body>
+</p><p>
+
+<b>Logoori verb differences</b>
+</p><p>
+The following recordings present further examples from Logoori for you to transcribe and analyze, focusing on some phonological alternations in paradigmatic word pair (imperative and infinitive). A second speaker, EM, is introduced in these recordings, which will make you familiar with an additional voice in the language, alongside FI. There are some inconsequential differences of pronunciation between these two speakers (mentioned below), for now you can treat them as being exactly the same. The most important thing to get right is the segmental and vowel length content of these words. As always, try to mark tones accurately, however this data set presents very little variation in tone. Consisent with the focus of this chapter, the solution to analyzing these data requires you to make the correct choice for underlying forms. You can ignore tonal differences that you may note since there is not enough data here to lead you to the right rules for tone in this case.
+</p><p>
+Verbs are given in pairs in the imperative form followed by the infinitive, both said by the same speaker.
+</p>
+
+<table	5%	15%	5%	15%>
+<!PB EM200418190757_145.mp3>	release!	<!PB EM220826112801_274.mp3>	to release
+<!PB FI2401140530321_055.mp3>	push!	<!PB FI2411010341181_026.mp3>	to push
+<!PB FI2407240542481_018.mp3>	see!	<!PB FI2407240542481_017.mp3>	to see
+<!PB FI250502015828_102.mp3>	scoop!	<!PB FI250502015828_101.mp3>	to scoop
+<!PB EM250418100_024.mp3>	caress!	<!PB EM250418100_023.mp3>	to caress
+<!PB EM250418100_018.mp3>	talk!	<!PB EM250418100_017.mp3>	to talk
+<!PB FI250502015828_114.mp3>	surrender!	<!PB FI250502015828_113.mp3>	to surrender
+<!PB EM250418100_022.mp3>	spread out!	<!PB EM250418100_021.mp3>	to spread out
+<!PB EM250418100_042.mp3>	scratch an itch!	<!PB EM250418100_041.mp3>	to scratch an itch
+<!PB EM250418100_046.mp3>	go bad!	<!PB EM250418100_045.mp3>	to go bad
+<!PB FI250502015828_072.mp3>	give off light!	<!PB FI250502015828_071.mp3>	to give off light
+<!PB EM250418100_030.mp3>	love!	<!PB EM250418100_029.mp3>	to love
+<!PB EM250418100_038.mp3>	swell!	<!PB EM250418100_037.mp3>	to swell (of the stomach)
+<!PB FI250502015828_064.mp3>	spread out!	<!PB FI250502015828_063.mp3>	to spread out
+<!PB EM250418100_048.mp3>	brew!	<!PB EM250418100_047.mp3>	to brew
+<!PB FI250502015828_098.mp3>	retract!	<!PB FI250502015828_097.mp3>	to retract the foreskin
+<!PB FI250502015828_068.mp3>	moo!	<!PB FI250502015828_067.mp3>	to moo
+<!PB EM250418100_006.mp3>	sprout!	<!PB EM250418100_005.mp3>	to sprout
+<!PB EM250418100_016.mp3>	graze!	<!PB EM250418100_015.mp3>	to graze
+<!PB FI250502015828_092.mp3>	brew!	<!PB FI250502015828_091.mp3>	to brew
+<!PB EM250418100_010.mp3>	join!	<!PB EM250418100_009.mp3>	to join
+<!PB FI250502015828_070.mp3>	lean!	<!PB FI250502015828_069.mp3>	to lean
+<!PB EM250418100_008.mp3>	scatter!	<!PB EM250418100_007.mp3>	to scatter
+<!PB FI250502015828_078.mp3>	warm!	<!PB FI250502015828_077.mp3>	to get warm
+<!PB FI250502015828_106.mp3>	become soft!	<!PB FI250502015828_105.mp3>	to become soft
+<!PB FI250502015828_094.mp3>	ripen!	<!PB FI250502015828_093.mp3>	to ripen
+<!PB FI250502015828_076.mp3>	moan!	<!PB FI250502015828_075.mp3>	to moan
+<!PB EM250418100_036.mp3>	sue!	<!PB EM250418100_035.mp3>	to sue
+<!PB EM250418100_004.mp3>	dig a hole!	<!PB EM250418100_003.mp3>	to dig a hole
+<!PB FI250502015828_074.mp3>	sweep!	<!PB FI250502015828_073.mp3>	to sweep
+<!PB FI250502015828_118.mp3>	be allergic!	<!PB FI250502015828_117.mp3>	to be allergic
+<!PB EM250418100_034.mp3>	start!	<!PB EM250418100_033.mp3>	to start
+<!PB FI250502015828_110.mp3>	become semi-rigid!	<!PB FI250502015828_109.mp3>	to become semi-rigid
+<!PB EM250418100_012.mp3>	clear out!	<!PB EM250418100_011.mp3>	to clear out
+</table>
+</p><p>
+As for pronunciation, one difference is how [j] is pronounced. FI pronounces [j] as you probably expect, [j], but EM has a somehow-different pronunciation: it sounds like a blend of [j] and [ð], but there is no phonetic symbol for "dental [j]". This is a wide-spread phenomenon of the language. We do not know where it came from or who does it. EM does it (esp. note "to brew"), FI does not, and each can notice the other's pronunciation and say "that's not how I say it", if they care (they do not generally). They also differ in the treatment of the liquids [r, l, ɭ]. FI produces [ɭ] and [ɾ] (can you identify a rule from all of the recorded data?). EM produces [ɾ]. In other data (not given here) both have long [ll] which is pronounced the same for both speakers – not retroflex. This is a typical challenge of phonological fieldwork, that some different speakers may have different inventories of sounds, as well as different ways of pronouncing a particular sound. The vowel qualities of these speakers differ phonetically but the system of phonological differences is the same.
